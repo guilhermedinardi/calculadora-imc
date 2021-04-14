@@ -1,7 +1,6 @@
 # Calculadora IMC
 
-<img src=>
-
+<img src="https://github.com/guilhermedinardi/calculadora-imc/blob/main/assets/calculadora.png">
 
 # Tecnologias Usadas
 
