@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: #ffffff;
+}
+.content {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    align-items: center; 
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 3px 3px 25px 3px #4e4e4e71;
+}
+.title-home {
+    font-size: 30px; 
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container-weight-info {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+    font-size: 25px; 
+}
+.first-weight-info{
+    color: #548335;
+}
+.second-weight-info{
+    color: #104210;
+}
+.third-weight-info{
+    color: #F6A21E;
+}
+.four-weight-info{
+    color: #E55B13;
+}
+.fifth-weight-info{
+    color: #548335;
+    font-size: 22px; 
+}
+.sixth-weight-info{
+    color: #104210;
+    font-size: 22px; 
+}
+.seventh-weight-info{
+    color: #F6A21E;
+    font-size: 22px; 
+}
+.eighth-weight-info{
+    color: #E55B13;
+    font-size: 22px; 
+}
+.form {
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    width: 39em;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.peso {
+    font-size: 20px;
+    font-family: inherit;
+    margin-bottom: 25px;
+    width: 50%;
+}
+.altura {
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.btn{
+    width: 30%;
+    height: 30px; 
+    align-self: center;
+    background-color: #393939;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #707070
+}
+
+.btn:active {
+  background-color: #707070;
+  border-radius: 15px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-self: normal;
+    flex-direction: column;
+    margin: 10px;
+}
+.paragrafo-resultado {
+    background-color: #548335;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+.paragrafo-invalido {
+    background-color: #c73f78;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}

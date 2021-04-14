@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <section class="content">
+        <h1 class="title-home">Calcule seu IMC</h1>
+        <div class="container-weight-info">
+            <span class="first-weight-info">Magreza</span>
+            <span class="second-weight-info">Normal</span>
+            <span class="third-weight-info">Sobrepeso</span>
+            <span class="four-weight-info">Obesidade</span>
+            <span class="fifth-weight-info">Menor: 18,5</span>
+            <span class="sixth-weight-info">Entre: 18,5 e<br> 24,9</span>
+            <span class="seventh-weight-info">Entre: 24,9 e<br> 30</span>
+            <span class="eighth-weight-info">Maior: 30</span>
+        </div>
+        <form class="form" action="/" method="POST">
+            <label for="peso">Peso</label>
+            <input type="text" class="peso" name="peso">
+            <label for="altura">Altura</label>
+            <input type="text" class="altura" name="altura">
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+        <div class="resultado"></div>
+    </section> 
+    <script src="./script.js"></script>
+</body>
+</html>
